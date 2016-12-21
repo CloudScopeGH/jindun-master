@@ -1,0 +1,47 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.2'
+    }
+}
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task zipproject(type:Zip){
+    print(' zipexec')
+    baseName = 'JIN_DUN_DEMO'
+
+    from('.')
+    include('*.gradle')
+    include('*.properties')
+    include('*.bat')
+
+    include('JIN_DUN/keystore/*.keystore')
+    include('JIN_DUN/libs/**/*')
+    include('JIN_DUN/res/**/*')
+    include('JIN_DUN/src/**/*')
+    include('JIN_DUN/AndroidManifest.xml')
+    include('JIN_DUN/*.gradle')
+    include('JIN_DUN/*.properties')
+    include('JIN_DUN/*.txt')
+
+    into('JIN_DUN')
+}
+
+task zipapk(type: Zip){
+    baseName = 'JIN_DUN_APK'
+
+    from('app/build/outputs/apk')
+
+	include('*-release.apk')
+    //rename '(.+)-release(.+)','IM_Demo.apk'
+
+    //into('app_RELEASE_APK')
+
+}

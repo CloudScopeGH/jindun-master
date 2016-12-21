@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jindun</string>
+    <string name="action_settings">Settings</string>
+    <string name="input_not_null">输入不能为空</string>
+    <string name="net_error">网络错误</string>
+
+    <string name="no_network_connection_toast" translatable="false">No network connection found</string>
+    <string name="error_timeout" translatable="false">请求超时,请重新试试</string>
+    <string name="generic_error" translatable="false">操作出错，请检查网络</string>
+    <string name="no_internet" translatable="false">请求不成功，请尝试切换网络连接</string>
+    <string name="no_internet_wap" translatable="false">请求不成功，你当前使用的是WAP网络，建议你切换到NET网络完成操作</string>
+
+
+    <string name="error_network_simple">网络好像有点问题,请检查网路</string>
+    <string name="msg_load_ing">正在加载</string>
+    <!-- 底部5个tab标题 -->
+    <string name="tab_1_title">电话</string>
+    <string name="tab_2_title">对讲</string>
+    <string name="tab_3_title">我要</string>
+    <string name="tab_4_title">消息</string>
+    <string name="tab_5_title">定位</string>
+    <string name="regarding">
+     提示:\n\n
+        1、您的提交会在1小时内被受理并初始化密码\n\n
+        初始化密码为证件号码6位数字。\n\n
+        2、如果加快受理进度,请致电:12345678
+
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_forgetpass">忘记密码</string>
+    <string name="id">账号</string>
+    <string name="id_explain">护照号/ID号</string>
+    <string name="protection_image">护照/ID照片</string>
+    <string name="present">提交</string>
+    <string name="title_register">账号登录</string>
+    <string name="pass">密码</string>
+    <string name="pass_explain">初始密码为6个6</string>
+    <string name="register">登录</string>
+    <string name="showpass">显示密码</string>
+    <string name="forgetpass">忘记密码</string>
+</resources>

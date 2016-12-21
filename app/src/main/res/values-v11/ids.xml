@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="emotion_tab" type="id" />
+    <item name="emotion_custom_size" type="id" />
+
+    <item type="id" name="webview" />
+    <item type="id" name="scrollview" />
+    <item type="id" name="gridview" />
+    <!--actionsheet-->
+    <item type="id" name="dialog_cancel_id"/>
+    <item type="id" name="dialog_bg_view"/>
+    <item type="id" name="dialog_index_tag"/>
+
+
+    <!-- titlebar -->
+    <item type="id" name="act_titlebar" />
+    <item type="id" name="my_lefttview" />
+    <item type="id" name="my_titleview" />
+    <item type="id" name="my_sub_titleview" />
+    <item type="id" name="my_rightview" />
+
+    <!-- 高斯模糊标记位 -->
+    <item type="id" name="gs_set_flag"/>
+</resources>

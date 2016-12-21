@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cloudspace.photopicker"
+    >
+    <activity
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:name="com.cloudspace.photopicker.PhotoPickerActivity"
+        />
+
+    <activity
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:name="com.cloudspace.photopicker.PhotoPagerActivity"
+        />
+</manifest>

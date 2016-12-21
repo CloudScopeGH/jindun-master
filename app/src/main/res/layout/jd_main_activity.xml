@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/style_mm"
+    android:id="@+id/drawer"
+    tools:context=".activity.MainActivity"
+    >
+    <RelativeLayout
+        style="@style/style_mm"
+        >
+        <RadioGroup
+            android:id="@+id/rg_main1_radioGroup"
+            style="@style/main_radio_group"
+            android:background="#999999">
+
+            <RadioButton
+                android:id="@+id/rb_main1_radioBt1"
+                style="@style/main_radio"
+                android:text="电话"/>
+
+            <RadioButton
+                android:id="@+id/rb_main1_radioBt2"
+                style="@style/main_radio"
+                android:text="对讲"
+                />
+            <RadioButton
+                style="@style/main_radio"
+                android:text="我要"/>
+
+            <RadioButton
+                style="@style/main_radio"
+                android:text="消息"/>
+
+            <RadioButton
+                style="@style/main_radio"
+                android:text="定位"/>
+
+        </RadioGroup>
+        <FrameLayout
+            android:id="@+id/fl_main1_fragment"
+            style="@style/style_mm"
+            android:layout_above="@id/rg_main1_radioGroup"/>
+    </RelativeLayout>
+    <fragment
+        android:id="@+id/id_left_menu"
+        android:name="com.cloudspace.jindun.fragment.MenuLeftFragment"
+        android:layout_width="250px"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:tag="LEFT" />
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,4 @@
+include ':app', ':IMLib', ':IMKit'
+include ':PhotoPicker'
+include ':MyDaoGenerator'
+include ':SlidingMenu'
